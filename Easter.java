@@ -4,7 +4,7 @@ import java.util.*;
 public class Easter{
 public static void main(String[] args) {
 
-
+Scanner scanner = new Scanner(System.in);
 int y=scanner.nextInt();
 
 int a=y%19;
@@ -22,6 +22,6 @@ int m = (a+(11*h)+(22*r))/451;
 int n = (h+r-(7*m)+114)/32;
 int p = (h+r-(7*m)+114)%32;
 int q = p+1; 
-System.out.println("Easter of "+y+"will be on " + n+"/"+q+"/"+y+".");
+System.out.println("Easter of "+y+" will be on " + n+"/"+q+"/"+y+".");
 }
 }
