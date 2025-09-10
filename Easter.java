@@ -36,8 +36,7 @@ System.out.println("r="+r);
 System.out.println("m="+m);
 System.out.println("n="+n);
 System.out.println("p="+p);
-System.out.println("q="+q);
-System.out.println("y="+y);
-System.out.println("Easter of "+y+" will be on " + n+"/"+q+"/"+y+".");
+
+System.out.println("Therefore in " + y + ", Easter fell on " + n "\" + p+1 + ". [Month = n =" + n + " & day = p+1 = " + p + "]");
 }
 }
